@@ -69,6 +69,9 @@ body {
 input[name="search"] {
     padding: 10px 20px;
     border-radius: 5px;
+
+    font-size: 16px;
+    color: inherit;
 }
 
 ::placeholder {
@@ -82,10 +85,16 @@ input[name="search"] {
     height: 30px;
     border-radius: 5px;
     background: cornflowerblue;
+    transition: 1s;
 
     color: inherit;
     font-weight: 700;
     font-size: 14px;
+}
+
+.btn:hover {
+    transform: scale(0.9);
+    transition: 1s;
 }
 
 #container {
